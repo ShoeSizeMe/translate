@@ -1,6 +1,8 @@
 # Translate
 
-This plugin provides a web interface for translating Rails I18n texts (requires Rails 2.2 or higher) from one locale to another. The plugin has been tested only with the simple I18n backend that ships with Rails. I18n texts are read from and written to YAML files under config/locales.
+Based on Peter Marklund's plugin found on https://github.com/mynewsdesk/translate
+
+This plugin provides a web interface for translating Rails I18n texts from one locale to another. The plugin has been tested only with the simple I18n backend that ships with Rails. I18n texts are read from and written to YAML files under config/locales.
 
 To translate to a new locale you need to add a YAML file for that locale that contains the locale as the top key and at least one translation.
 
